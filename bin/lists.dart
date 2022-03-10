@@ -13,6 +13,8 @@ void main(List<String> arguments) {
     myList[1] = 'two';
     myList[2] = 'three';
     print(myList);
+
+    //SHUFFLEBROOOOOOOOO
     myList.shuffle();
     print(myList);
 
@@ -37,14 +39,18 @@ myListOfThings.add('Grótta');
 myListOfThings.add('Valur');
 myListOfThings.add('FH');
 myListOfThings.add('Fram');
+
+//MAPPING BROOOOOO, SJÁ NR HVAÐ HVERT ER
 Map<int,String> map = myListOfThings.asMap();
 print(map);
 
 
+//BÚA TIL VAR LISTA BROOOOOOOOOO
 var listOfObjects = [1, 'Halló', 1234, true];
 var strings = listOfObjects.whereType<String>();
 print(listOfObjects);
 print(strings);
+//BARA PRINTA ÞAÐ SEM ÞÚ VILT, INT Í ÞESSU TILFELLI
 var ints = listOfObjects.whereType<int>();
 print(ints);
 
@@ -57,14 +63,14 @@ myList.add('eikka');
 myList.add('1234');
 myList.add(1234);
 print(myList);
-myList.so
+myList.sort
 
 List<String> stringList = [];
 mylist.removeRange(0,2);
 
 
 
-
+//GETUR SORTAÐ LISTANN
 List<int> numbers = [2,1,42,51,6,0,1,2,3,32,27];
 numbers.sort();
 print(numbers);
@@ -146,6 +152,8 @@ for(int i = 0; i < list.length; i++)
     print('${i+1}. ${list[i]}');
     print('* ${list[i]}');
   }
+
+// Í TÍMA 6 I THINK, TIME ABOUT LISTS HEHE, ÞÁ GERÐI EH SHUFFLE.FIRST EIKKA VIÐ LISTA, KANNSKI KÍKJA Á ÞAÐ?
 
 
 
